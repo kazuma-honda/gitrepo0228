@@ -1,0 +1,25 @@
+apiVersion: v2
+stacks:
+- id: my-nodejs-express-stack
+  name: My Node.js Express
+  version: 1.0.0
+  description: Express web framework for Node.js with Helmet
+  license: Apache-2.0
+  language: nodejs
+  maintainers:
+  - name: My_name
+    email: My_email
+    github-id: My_Github_ID
+  default-template: simple
+  src: https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.source.tar.gz
+  templates:
+  - id: kafka
+    url: https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.kafka.tar.gz
+  - id: scaffold
+    url: https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.scaffold.tar.gz
+  - id: simple
+    url: https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.simple.tar.gz
+  requirements:
+    docker-version: '>= 17.09.0'
+    appsody-version: '>= 0.2.7'
+  image: kazumahonda777/my-nodejs-express-stack/my-nodejs-express-stack:1.0.0

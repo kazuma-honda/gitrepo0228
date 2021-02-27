@@ -1,0 +1,35 @@
+[
+	{
+		"displayName": "My-Org-Repository My Node.js Express kafka template",
+		"description": "Express web framework for Node.js with Helmet",
+		"language": "nodejs",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.kafka.tar.gz",
+		"links": {
+			"self": "/devfiles/my-nodejs-express-stack/devfile.yaml"
+		}
+	},
+	{
+		"displayName": "My-Org-Repository My Node.js Express scaffold template",
+		"description": "Express web framework for Node.js with Helmet",
+		"language": "nodejs",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.scaffold.tar.gz",
+		"links": {
+			"self": "/devfiles/my-nodejs-express-stack/devfile.yaml"
+		}
+	},
+	{
+		"displayName": "My-Org-Repository My Node.js Express simple template",
+		"description": "Express web framework for Node.js with Helmet",
+		"language": "nodejs",
+		"projectType": "appsodyExtension",
+		"projectStyle": "Appsody",
+		"location": "https://github.com/kazuma-honda/gitrepo0228/releases/download/1.0/my-nodejs-express-stack.v1.0.0.templates.simple.tar.gz",
+		"links": {
+			"self": "/devfiles/my-nodejs-express-stack/devfile.yaml"
+		}
+	}
+]
